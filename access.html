@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset=" UTF-8">
+    <title>ACCESS | Coaching official website</title>
+    <meta name="description" content="コーチングに関するアクセスと予約">
+    <meta name="viewport" content="width=device-width">
+    <script src="./js/toggle-menu.js"></script>
+    <link href="./css/common.css" rel="stylesheet">
+    <link href="./css/access.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Quintessential&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- headerここから -->
+    <header class="header">
+        <div class="header-inner">
+            <a class="header-logo" href="./index.html">
+                <img src="./images/common/logo-header.png" alt="Coaching">
+            </a>
+            <button class="toggle-menu-button"></button>
+            <div class="header-site-menu">
+                <nav class="site-menu">
+                    <ul>
+                        <li><a href="./concept.html">CONCEPT</a></li>
+                        <li><a href="./detail.html">DETAIL</a></li>
+                        <li><a href="profile.html">PROFILE</a></li>
+                        <li><a href="access.html">ACCESS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- mainここから　-->
+    <main class="main">
+        <div class="title">
+            <h1>ACCCESS</h1>
+            <p>お問合わせ</p>
+        </div>
+        <div class="access">
+            <h2>お問合せフォーム</h2>
+            <form action="#">
+                <dl class="form-area">
+                    <dt><span class="required">お名前</span></dt>
+                    <dd><input class="input-text" type="text" name="name" required></dd>
+                    <dt><span class="required">メールアドレス</span></dt>
+                    <dd><input class="input-text" type="email" name="email" required></dd>
+                    <dt>お電話番号</dt>
+                    <dd><input class="input-text" type="tel" name="tel"></dd>
+                    <dt><span class="required">お問合せ種別</span></dt>
+                    <dd>
+                        <select class="select-box" name="genre">
+                            <option value="ご予約について" selected>ご予約について</option>
+                            <option value="ご質問">ご質問</option>
+                        </select>
+                    </dd>
+                    <dt><span class="required">性別</span></dt>
+                    <dd>
+                        <label class="radio-button"><input type="radio" name="gender" value="男性">男性</label>
+                        <label class="radio-button"><input type="radio" name="gender" value="女性">女性</label>
+                    </dd>
+                    <dt><span class="required">お客様について</span></dt>
+                    <dd>
+                        <label class="radio-button"><input type="radio" name="customer">初めてのお客様</label>
+                        <label class="radio-button"><input type="radio" name="customer">ご予約のお客様</label>
+                        <label class="radio-button"><input type="radio" name="customer">その他のお客様</label>
+                    </dd>
+                    <dt><span class="age">ご年齢</span></dt>
+                    <dd>
+                        <select class="select-box" name="genre">
+                            <option value="age" selected>18歳~20歳</option>
+                            <option value="age">21歳~25歳</option>
+                            <option value="age">26歳~30歳</option>
+                            <option value="age">31歳~35歳</option>
+                            <option value="age">36歳~40歳</option>
+                            <option value="age">41歳~45歳</option>
+                            <option value="age">46歳~50歳</option>
+                            <option value="age">50歳~60歳</option>
+                            <option value="age">70歳~</option>
+                        </select>
+                    </dd>
+                    <dt><span class="required">ご質問等</span></dt>
+                    <dd><textarea class="message" name="message" required></textarea></dd>
+                </dl>
+                <p class="confirm-text">ご入力内容をご確認の上、お間違いがなければ送信ボタンを押してください。</p>
+                <button class="submit-button" type="submit">送信</button>
+            </form>
+        </div>
+    </main>
+    <!-- footerここから -->
+    <footer class="footer">
+        <nav class="site-menu">
+            <ul>
+                <li><a href="./concept.html">CONCEPT</a></li>
+                <li><a href="./detail.html">DETAIL</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="access.html">ACCESS</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a class="footer-logo" href="./index.html">
+                <img src="./images/common/logo-footer.png" alt="Coaching">
+            </a>
+            <p class="footer-email">Email 0000@000.com</p>
+        </div>
+        <div id="sns-footer">
+            <a href="https://www.facebook.com/sejuku2013"><img src="images/common/button-facebook.png"
+                    alt="Facebookのリンク"></a>
+            <a href="https://twitter.com/samuraijuku"><img src="images/common/button-twitter.png" alt="Twitterのリンク"></a>
+            <p class="copyright"><small>&copy;Ltd.</small></p>
+        </div>
+    </footer>
+    <h1></h1>
+    <p></p>
+</body>
+
+</html>

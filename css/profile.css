@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.title {
+    height: 310px;
+    background-image: url(../images/concept/bg-hawai.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 10px 10px 20px black;
+  }
+  
+  .title h1 {
+    font-family: 'Quintessential', cursive;
+    font-size: 45px;
+    font-weight: bold;
+  }
+  
+  .title p {
+    font-family: 'Quintessential', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+.feature img {
+    width: auto;
+    height: auto;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+
+
+  @media (max-width: 800px) {
+
+    .feature img {
+      margin-top: 45px;
+      row-gap: 40px;
+    }
+  }
